@@ -1,0 +1,297 @@
+{
+	"easycom": {
+		"^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/forget/forget",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "忘记密码"
+			}
+		}, {
+			"path": "pages/center/center",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/user-info/user-info",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "用户信息"
+			}
+		}, {
+			"path": "pages/news-detail/news-detail",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "资讯详情"
+			}
+		}, {
+			"path": "pages/huodongxinxi/list",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "活动信息"
+			}
+		}, {
+			"path": "pages/huodongxinxi/add-or-update",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "发布活动",
+				"mp-weixin": {
+					"usingComponents": {
+						"chooseLocation": "plugin://chooseLocation/index"
+					}
+				}
+			}
+		}, {
+			"path": "pages/huodongxinxi/detail",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "活动详情页"
+			}
+		}, {
+			"path": "pages/yonghufabu/list",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "攻略游记"
+			}
+		}, {
+			"path": "pages/yonghufabu/add-or-update",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "发布攻略游记"
+			}
+		}, {
+			"path": "pages/yonghufabu/detail",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "攻略游记"
+			}
+		}, {
+			"path": "pages/news/list",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/news/detail",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/storeup/list",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/storeup/detail",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/forum-index/forum-index",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "圈子交流"
+			}
+		}, {
+			"path": "pages/forum-detail/forum-detail",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "圈子交流发帖详情"
+			}
+		}, {
+			"path": "pages/forum-reply/forum-reply",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "回复评论"
+			}
+		}, {
+			"path": "pages/forum-list/list",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的发布"
+			}
+		}, {
+			"path": "pages/forum-my/forum-my",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的发布"
+			}
+		}, {
+			"path": "pages/forum-add-or-update/forum-add-or-update",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的发布"
+			}
+		}, {
+			"path": "common/linkOthers/linkOthers",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/huodongxinxi/activities-my",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的活动"
+			}
+		},
+		{
+			"path": "pages/yonghufabu/yonghufabu-my",
+			"style": {
+						"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的攻略游记"
+			}
+		},
+		{
+			"path": "pages/storeup/storeup-my",
+			"style": {
+				"navigationBarBackgroundColor": "#C2E46A",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/baoming-my/baoming-my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/baoming-my/check",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/huodongxinxi/Navigation",
+			"style": {
+				"navigationBarTitleText": "活动地点",
+				"mp-weixin": {
+					"usingComponents": {
+						"routePlan": "plugin://routePlan/index"
+					}
+				}
+			}
+		},
+		{
+			"path" : "pages/forum-detail/reply",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/huodongxinxi/location",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"mp-weixin": {
+					"usingComponents": {
+						"chooseLocation": "plugin://chooseLocation/index"
+					}
+				}
+			}
+		},
+		{
+			"path" : "pages/huodongxinxi/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/our/our",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "六只脚",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"tabBar": {
+		"color": "#BBBBBB",
+		"selectedColor": "#C2E46A",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabs/index.png",
+			"selectedIconPath": "static/tabs/index1.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/huodongxinxi/list",
+			"iconPath": "/static/tabs/icon1.png",
+			"selectedIconPath": "/static/tabs/icon1_act.png",
+			"text": "活动信息"
+		}, {
+			"pagePath": "pages/yonghufabu/list",
+			"iconPath": "/static/tabs/icon2.png",
+			"selectedIconPath": "/static/tabs/icon2_act.png",
+			"text": "用户发布"
+		}, {
+			"pagePath": "pages/forum-index/forum-index",
+			"iconPath": "static/tabs/forum.png",
+			"selectedIconPath": "static/tabs/forum_act.png",
+			"text": "圈子交流"
+		}, {
+			"pagePath": "pages/center/center",
+			"iconPath": "static/tabs/mine.png",
+			"selectedIconPath": "static/tabs/mine1.png",
+			"text": "我的"
+		}]
+	}
+}

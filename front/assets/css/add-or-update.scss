@@ -1,0 +1,168 @@
+	.container {
+		padding: 20upx;
+	}
+
+	.content:after {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+	}
+
+	textarea {
+		border: 1upx solid #EEEEEE;
+		border-radius: 20upx;
+		padding: 20upx;
+	}
+
+	.title {
+
+		text-align: center;
+		border-width: 0; //边框
+		width: 160rpx;
+		line-height: 70rpx;
+		font-size: 28rpx;
+		border-style: solid;
+	}
+
+	.avator {
+		width: 150upx;
+		height: 60upx;
+		padding: 0;
+		box-shadow: 0 0 0px rgba(0, 0, 0, .3);
+		margin: 16rpx 0;
+		border-color: #ccc;
+		background-color: rgba(0, 0, 0, 0);
+		border-radius: 100%;
+		border-width: 0;
+		width: 88rpx;
+		height: 88rpx;
+		border-style: solid;
+	}
+
+	.right-input {
+		flex: 1;
+		text-align: left;
+		padding: 0 24upx;
+	}
+
+	.cu-form-group.active {
+		justify-content: space-between;
+	}
+
+	.btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding: 20upx 0;
+	}
+
+	.cu-form-group {
+		//每一行
+		padding: 0 24upx;
+		background-color: transparent;
+		min-height: inherit;
+		box-shadow: 0 0 0px rgba(0, 0, 0, .3);
+		background-color: rgba(251, 251, 251, 1);
+		border-color: #ccc;
+		margin: 0 0 20rpx 0;
+		border-width: 0;
+		width: 100%;
+		border-style: solid;
+		height: 108rpx;
+		/* height:auto */
+	}
+
+	.cu-form-group+.cu-form-group {
+		border: 0;
+	}
+
+	.cu-form-group uni-input {
+		padding: 0 30upx;
+	}
+
+	.uni-input {
+		//选择器
+		padding: 0 30upx;
+		box-shadow: 0 0 0px rgba(0, 0, 0, .6) inset;
+		background-color: rgba(255, 255, 255, 0);
+		border-color: rgba(194, 228, 106, 1);
+		color: rgba(0, 0, 0, 1);
+		text-align: left;
+		border-radius: 16rpx;
+		border-width: 2rpx;
+		width: calc(100% - 160rpx);
+		line-height: 80rpx;
+		font-size: 28rpx;
+		border-style: dashed;
+	}
+
+	.cu-form-group uni-textarea {
+		padding: 30upx;
+		margin: 0;
+	}
+
+	.cu-form-group uni-picker::after {
+		line-height: 80rpx;
+	}
+
+	.select .uni-input {
+		line-height: 80rpx;
+
+	}
+
+	.input .right-input {
+		line-height: 60rpx;
+
+	}
+
+	.inputClass {
+		padding: 0 30rpx;
+		box-shadow: 0 0 0px rgba(0, 0, 0, .6) inset;
+		margin: 0;
+		border-color: rgba(194, 228, 106, 1);
+		background-color: rgba(255, 255, 255, 0);
+		color: rgba(0, 0, 0, 1);
+		text-align: left;
+		border-radius: 16rpx;
+		border-width: 2rpx;
+		width: calc(100% - 160rpx);
+		font-size: 28rpx;
+		border-style: dashed;
+		height: 60rpx;
+	}
+
+	.textareaClass {
+		padding: 20rpx;
+		box-shadow: 0 0 0px rgba(0, 0, 0, .6) inset;
+		margin: 0;
+		background-color: rgba(255, 255, 255, 0);
+		border-color: rgba(194, 228, 106, 1);
+		border-radius: 16rpx;
+		color: rgba(0, 0, 0, 1);
+		border-width: 2rpx;
+		width: calc(100% - 160rpx);
+		font-size: 28rpx;
+		border-style: dashed;
+		height: 240rpx;
+	}
+
+	.buttonClass {
+		padding: 0;
+		box-shadow: 0 0 16rpx rgba(0, 0, 0, 0) inset;
+		margin: 0 auto;
+		background-color: rgba(194, 228, 106, 1);
+		border-color: #409EFF;
+		border-radius: 88rpx;
+		color: #fff;
+		border-width: 0;
+		width: 60%;
+		font-size: 28rpx;
+		border-style: solid;
+		height: 80rpx;
+	}

@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#C2E46A",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "发布攻略游记",
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker",
+    "piaoyi-editor": "/uni_modules/piaoyi-editor/components/piaoyi-editor/piaoyi-editor"
+  }
+}

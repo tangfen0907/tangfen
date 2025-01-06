@@ -1,0 +1,5 @@
+front为前台小程序的前端源码
+admin为后台管理系统的前端源码
+mountain为后端源码
+tangfen为文件上传目录
+tangfen.sql是数据库

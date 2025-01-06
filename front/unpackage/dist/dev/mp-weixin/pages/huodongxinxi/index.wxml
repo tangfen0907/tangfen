@@ -1,0 +1,1 @@
+<view class="data-v-9f578b78"><map class="map data-v-9f578b78" markers="{{cover}}" longitude="{{centerlog}}" latitude="{{centerlat}}" data-event-opts="{{[['markertap',[['goto',['$event']]]],['callouttap',[['callouttap',['$event']]]]]}}" bindmarkertap="__e" bindcallouttap="__e"></map></view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "c-comment": "/components/XJ-comment/index"
+  }
+}

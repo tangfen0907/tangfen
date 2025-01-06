@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.MarkerDao">
+
+
+    <resultMap type="com.entity.MarkerEntity" id="markerMap">
+        <result property="latitude" column="latitude"/>
+        <result property="longitude" column="longitude"/>
+        <result property="image_url" column="image_url"/>
+        <result property="title" column="title"/>
+        <result property="addtime" column="addtime"/>
+        <result property="activity_id" column="activity_id"/>
+    </resultMap>
+
+    <select id="selectListVO"
+            resultType="com.entity.vo.MarkerVO" >
+        SELECT * FROM marker  marker
+        <where> 1=1 ${ew.sqlSegment}</where>
+    </select>
+
+    <select id="selectVO"
+            resultType="com.entity.vo.MarkerVO" >
+        SELECT  marker.* FROM marker  marker
+        <where> 1=1 ${ew.sqlSegment}</where>
+    </select>
+
+    <select id="selectListView"
+            resultType="com.entity.view.MarkerView" >
+
+        SELECT  marker.* FROM marker  marker
+        <where> 1=1 ${ew.sqlSegment}</where>
+    </select>
+
+    <select id="selectView"
+            resultType="com.entity.view.MarkerView" >
+        SELECT * FROM marker  marker <where> 1=1 ${ew.sqlSegment}</where>
+    </select>
+
+    <select id="selectByActivityId" resultType="com.entity.MarkerEntity">
+        SELECT * FROM marker WHERE activity_id = #{activityId}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.HuodongdiquDao">
+
+
+    <resultMap type="com.entity.HuodongdiquEntity" id="huodongdiquMap">
+        <result property="huodongdiqu" column="huodongdiqu"/>
+    </resultMap>
+
+	<select id="selectListVO"
+		resultType="com.entity.vo.HuodongdiquVO" >
+		SELECT * FROM huodongdiqu  huodongdiqu         
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectVO"
+		resultType="com.entity.vo.HuodongdiquVO" >
+		SELECT  huodongdiqu.* FROM huodongdiqu  huodongdiqu 	
+ 		<where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+
+    <select id="selectListView"
+		resultType="com.entity.view.HuodongdiquView" >
+
+		SELECT  huodongdiqu.* FROM huodongdiqu  huodongdiqu 	        
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.entity.view.HuodongdiquView" >
+		SELECT * FROM huodongdiqu  huodongdiqu <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+
+
+</mapper>

@@ -1,0 +1,16 @@
+{
+    "id": "XJ-comment",
+    "name": "comment 评论列表，回复，点赞，删除组件 vue2+uni-ui",
+    "displayName": "comment 评论列表，回复，点赞，删除组件 vue2+uni-ui",
+    "version": "1.0",
+    "description": "支持多级评论, 点赞, 删除, 回复, 发起新评论; 注释详细方便二次开发; 组件功能高完成度可直接调用后端接口进行使用 -该插件支持Vue2;",
+    "keywords": [
+        "评论。一级二级评论。vue2."
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

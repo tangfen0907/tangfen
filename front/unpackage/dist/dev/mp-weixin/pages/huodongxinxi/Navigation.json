@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "活动地点",
+  "usingComponents": {
+    "routePlan": "plugin://routePlan/index"
+  }
+}

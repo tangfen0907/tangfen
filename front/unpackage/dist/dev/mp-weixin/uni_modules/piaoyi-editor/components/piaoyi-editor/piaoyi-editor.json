@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "picker-color": "/uni_modules/piaoyi-editor/components/piaoyi-editor/color-picker"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#C2E46A",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "发布活动",
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker",
+    "chooseLocation": "plugin://chooseLocation/index",
+    "piaoyi-editor": "/uni_modules/piaoyi-editor/components/piaoyi-editor/piaoyi-editor"
+  }
+}

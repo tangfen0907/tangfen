@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#C2E46A",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "活动详情页",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "liu-drag-button": "/uni_modules/liu-drag-button/components/liu-drag-button/liu-drag-button"
+  }
+}
